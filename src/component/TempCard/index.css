@@ -1,0 +1,38 @@
+.temp-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.temp-card-value {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  margin-right: -10px;
+}
+
+.degree-small {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+
+.meter-per-sec {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .temp-card-container {
+    margin-top: 24px;
+  }
+  .temp-card-value {
+    font-size: 20px;
+  }
+}

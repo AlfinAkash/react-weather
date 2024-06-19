@@ -1,0 +1,49 @@
+.other-cities-light {
+  background-color: #eeeeee;
+}
+
+.other-cities-dark {
+  background-color: #31363f;
+}
+
+.other-cities-main {
+  width: 100%;
+  height: 200px;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+.other-cities-heading {
+  font-family: "Inter";
+  font-size: 12px;
+  margin-bottom: 28px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.other-city-list-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4px;
+}
+
+.vertical-separator-light {
+  width: 0.5px;
+  height: 60%;
+  background-color: #31363f;
+}
+
+.vertical-separator-dark {
+  width: 0.5px;
+  height: 60%;
+  background-color: #eeeeee;
+}

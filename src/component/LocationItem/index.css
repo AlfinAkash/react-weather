@@ -1,0 +1,16 @@
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.location-icon {
+  font-size: 16px;
+}
+
+.location-text {
+  font-family: "Inter";
+  font-size: 12px;
+  margin-left: 4px;
+}

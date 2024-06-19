@@ -1,0 +1,68 @@
+.main-temp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.main-temp-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 140px;
+}
+
+.main-temp {
+  font-family: "Inter";
+  font-weight: bolder;
+  font-size: 42px;
+  margin: 0;
+}
+
+.main-temp-type-text {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+}
+
+.degree {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+}
+
+.main-temp-type-desc {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.weather-img {
+  width: 120px;
+  margin-left: 30px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.not-found-img {
+  width: 60px;
+}
+
+.not-found-text {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+}

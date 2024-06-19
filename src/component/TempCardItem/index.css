@@ -1,0 +1,33 @@
+.temp-card-item-light {
+  background-color: #eeeeee;
+}
+
+.temp-card-item-dark {
+  background-color: #31363f;
+}
+
+.temp-card-item {
+  width: 150px;
+  height: 200px;
+  border-radius: 16px;
+  padding: 8px;
+  margin: 8px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp-card-text {
+  font-family: "Inter";
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 28px;
+  font-weight: 100;
+}
+
+.temp-card-img {
+  width: 40%;
+}

@@ -1,0 +1,17 @@
+.theme-btn {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 16px;
+  outline: none;
+}
+
+.icon-light {
+  color: #000000;
+  font-size: 22px;
+}
+
+.icon-dark {
+  color: #f8b200;
+  font-size: 24px;
+}

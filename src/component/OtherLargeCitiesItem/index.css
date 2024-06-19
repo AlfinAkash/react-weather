@@ -1,0 +1,40 @@
+.other-city-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-city-img {
+  width: 40px;
+}
+
+.other-city-value {
+  margin: 0;
+
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.other-city-name {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media (max-width: 991px) {
+  .other-city-img {
+    width: 30px;
+  }
+
+  .other-city-value {
+    font-size: 24px;
+  }
+
+  .other-city-name {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 100;
+  }
+}
